@@ -5,5 +5,12 @@ Udemy currently has a notes function where you can created rich-text-formatted n
 Unforunately the display leaves something to be desired, and so I wanted to have something that would let me paste my notes to Notion, or just to a
 local file that I could use to quickly review as needed.  Udemy doesn't provide any export functionality, so I thought I could do this on my own.
 
-The script attached can be run line-by-line in the console while you have your Udemy course up on your screen with the Notes tab active.  
-It works on the current course I'm in as of 11/2/2021, so it's possible this may or may not work in other courses, or if Udemy changes their markup.
+The app.js script can be run in console and it should produce output there.  Depending on how much output, it may be truncated so you may have to click on "more" to expand it.  Once you do that you can copy and paste to whatever site/app you wish.  
+
+I created a basic structure of divs to hold each note and within the div an h2 for the heading.  I haven't created any styling yet, but feel free to do that and contribute your style with your name.css (or any moniker you wish) and add to the css folder.
+
+I'm happy to take suggestions/tweaks via pull requests.
+
+**Note**: You must have your browser set to one of your Udemy courses and have the Notes tab selected/active.
+
+**Note 2**: It works on the current course I'm in as of 11/2/2021, so it's possible this may or may not work in other courses, or if Udemy changes their markup.

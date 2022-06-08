@@ -12,5 +12,3 @@ I created a basic structure of divs to hold each note and within the div an h2 f
 I'm happy to take suggestions/tweaks via pull requests.
 
 **Note**: You must have your browser set to one of your Udemy courses and have the Notes tab selected/active.
-
-**Note 2**: It works on the current course I'm in as of 11/2/2021, so it's possible this may or may not work in other courses, or if Udemy changes their markup.

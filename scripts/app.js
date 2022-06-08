@@ -1,16 +1,12 @@
-let notes = document.querySelectorAll(".lecture-bookmark-v2--content-container--2f_Tg div")
+let notes = document.querySelectorAll(".rt-scaffolding");
 
-let allNotes = ""
+let allNotes = "";
 
-for (let note of notes) {
-    allNotes += `<div class="note">
-    `
-    allNotes += "<h2>" + note.parentElement.parentElement.firstElementChild.firstElementChild.firstElementChild.innerHTML + "</h2>"
-    allNotes += `
-    `
-    allNotes += note.innerHTML
-    allNotes += `
-    </div>`
-}
+notes.forEach(function (note, i, shortArraynm) {
+  allNotes += `
+<div class="note">
+     ${note.innerHTML}
+</div>`;
+});
 
 console.log(allNotes);
